@@ -15,7 +15,7 @@ class Car:
         random_chance = random.randint(1,6)
         if random_chance == 1:
             new_car = Turtle()
-            new_car.shape('square')
+            new_car.shape('circle')
             new_car.color(random.choice(colors))
             new_car.penup()
             new_car.goto(280, random.randint(-250, 250))
